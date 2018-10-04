@@ -1,0 +1,68 @@
+*{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";	
+}
+
+.tabelaTR {
+	background-color: #DEE2E6;
+	height: 50px;
+	color: #6B6C6D;
+	text-align: left;
+}
+
+.alinhamento {
+	padding-left: 50px;
+}
+
+.corpoTabela > td {
+	text-align: left;
+	border-bottom: 1px solid grey;
+	padding-left: 50px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+
+.tabela {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse; 
+}
+
+.verItem {
+	color: #007bff;
+}
+
+.entregue {
+	text-align: center;
+	background-color: #28a745;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.pendente {
+	text-align: center;
+	background-color: #007bff;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.cancelado {
+	text-align: center;
+	background-color: #E82431;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.excluir {
+	color: #E82431;
+}
+
+.editar {
+	color: #ffff00;
+}
+
+.cor {
+	color: #6B6C6D;
+}
