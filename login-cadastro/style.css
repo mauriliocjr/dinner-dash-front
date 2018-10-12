@@ -1,0 +1,93 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nome {
+	margin-bottom: 10px;
+	color: grey;
+}
+
+.plinha {
+	margin-bottom: -7px;
+}
+
+.titulo {
+	margin-bottom: 15%;
+	margin-top: 15%;
+}
+
+.linha {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-bottom: 1px solid grey;
+}
+
+.login {
+	background-color: limegreen;
+	color: white;
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 15px;
+	padding: 2%;
+	margin-top: 18px;
+	border: 1px solid limegreen;
+}
+
+.login:hover {
+	color: limegreen;
+	background-color: white;
+}
+
+.btCadastrar {
+	background-color: white;
+	color: limegreen;
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 18px;
+	padding: 2%;
+	border: 1px solid limegreen;
+}
+
+.btn:hover {
+	color: white;
+	background-color: limegreen;
+}
+
+.camposForm {
+	width: 100%;
+	border-radius: 5px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border: 1px solid grey;
+	outline: none;
+}
+
+.quadrado {
+	padding: 15%;
+}
+
+.quadradoCad {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.imagem {
+	width: 60%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-image: url(fundo.jpg);
+	background-size: cover;
+}
+
+.campos {
+	width: 40%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
