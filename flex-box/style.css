@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	justify-content: center;
+	display: flex;
+}
+
+.coluna1{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border:2px solid black;
+}
+
+.coluna2{
+	display: flex;
+	width: 50%;
+	border:2px solid black;
+}
+
+.box1{
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+	background-color: green;
+}
+
+.box2{
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+	background-color: red;
+}

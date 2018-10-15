@@ -2,6 +2,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+
 .nome {
 	margin-bottom: 10px;
 	color: grey;
@@ -90,4 +91,28 @@
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+}
+
+@media (max-width: 650px) {
+	.imagem {
+		display: none;
+	}
+
+	.campos {
+		width: 100%;
+		overflow: scroll;
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 651px) and (max-width: 768px) {
+	.imagem {
+		display: none;
+	}
+
+	.campos {
+		width: 100%;
+		overflow: scroll;
+		margin-bottom: 20px;
+	}
 }
