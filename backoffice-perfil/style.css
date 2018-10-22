@@ -1,0 +1,143 @@
+*{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";	
+}
+
+.imagem {
+	background-image: url(backoffice.jpg);
+	min-height: 70vh;
+	background-size: cover;
+}
+
+.imagemP {
+	background-image: url(perfil.jpeg);
+	min-height: 70vh;
+	background-size: cover;
+}
+
+.tabelaTR {
+	background-color: #DEE2E6;
+	height: 50px;
+	color: #6B6C6D;
+	text-align: left;
+}
+
+.alinhamento {
+	padding-left: 50px;
+}
+
+.corpoTabela > td {
+	text-align: left;
+	border-bottom: 1px solid grey;
+	padding-left: 50px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+
+.tabela {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse; 
+	margin-bottom: 5em;
+}
+
+.verItem {
+	color: #007bff;
+}
+
+.entregue {
+	text-align: center;
+	background-color: #28a745;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.pendente {
+	text-align: center;
+	background-color: #007bff;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.cancelado {
+	text-align: center;
+	background-color: #E82431;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.excluir {
+	color: #E82431;
+}
+
+.editar {
+	color: #ffff00;
+}
+
+.cor {
+	color: #6B6C6D;
+}
+
+.menuBaixo {
+	margin-top: -2em;
+	margin-bottom: 2em;
+}
+
+.menuB {
+	padding-left: 4.25%;
+}
+
+.imagemNomes{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+h4{
+	font-size: 1.6em;
+	padding-left: 80%;
+	padding-top: 25%;
+}
+
+h1{
+	padding-left: 7%;
+	padding-top: 18%;
+}
+
+h5{
+	padding-left: 7%;
+}
+
+.nome {
+	color: white;
+}
+
+.menuCima {
+	padding-right: 11%;
+	padding-top: 2.88%;
+}
+
+.menuC {
+	margin-left: 10px;
+}
+
+.active {
+	color: yellow;
+}
+
+.rodape{
+	display: flex;
+	justify-content: space-between; 
+	background-color:	#DEE2E6;
+	padding: 1% 5.75% 1% 5.75%;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+}
+
+.formularioPerfil {
+	margin-top: 2em;
+	margin-bottom: 5em;
+}
